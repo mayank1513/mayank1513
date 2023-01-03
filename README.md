@@ -1,6 +1,10 @@
+<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50"/>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&duration=3000&pause=1000&vCenter=true&width=435&lines=Hola+%F0%9F%91%8B%2C+I+am+Mayank+Kumar+Chaudhari)](https://mayank-chaudhari.vercel.app)
 
-
+# Blogs
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 <!--
 **mayank1513/mayank1513** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
