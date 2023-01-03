@@ -1,7 +1,12 @@
-### Hi there 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&duration=3000&pause=1000&vCenter=true&width=435&lines=Hola+%F0%9F%91%8B%2C+I+am+Mayank+Kumar+Chaudhari)](https://mayank-chaudhari.vercel.app)
+
+
 
 <!--
 **mayank1513/mayank1513** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
+[![Mayank Chaudhari StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=9640177&layout=compact)](https://stackoverflow.com/users/9640177/mayank1513)
 
 Here are some ideas to get you started:
 
