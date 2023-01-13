@@ -8,6 +8,8 @@
 
 **Key Skills**: JavaScript/TypeScript, React/Next.js/JSX, HTML/CSS/SCSS, Vue.js/Nuxt.js, Firebase, Prisma, Firefox-addon, Azure/Amazon Web Services/Google Cloud Platform, Android/Java
 
+#### https://mayank-chaudhari.vercel.app
+
 ### Career Highlights
 
 - Top 1% talent on Upwork with 100% 5-star client feedback.
