@@ -28,11 +28,11 @@
 
 # [Blogs](https://mayank1513.medium.com/)
 <!-- BLOG-POST-LIST:START -->
-- [The Top 10 Product Analytics Software &amp; Tools For 2023–24](https://mayank1513.medium.com/the-top-10-product-analytics-software-tools-for-2023-24-131607ec452?source=rss-c239fa1052f9------2)
 - [Understanding the Nuxt 3 Directory structure](https://mayank1513.medium.com/understanding-the-nuxt-3-directory-structure-d39f21f8eaa0?source=rss-c239fa1052f9------2)
 - [Ways to prevent banking frauds!](https://mayank1513.medium.com/ways-to-prevent-banking-frauds-ac3ac4a2eae9?source=rss-c239fa1052f9------2)
 - [JS Funda: Client-Side Routing and The History API](https://mayank1513.medium.com/js-funda-client-side-routing-and-the-history-api-c4ebd4de977a?source=rss-c239fa1052f9------2)
 - [Why Should You Use Typescript Instead of JavaScript?](https://mayank1513.medium.com/why-should-you-use-typescript-instead-of-javascript-65bd3abc7066?source=rss-c239fa1052f9------2)
+- [Facing Interviews: How to Answer “Where Do You See Yourself in 5 Years?”](https://mayank1513.medium.com/facing-interviews-how-to-answer-where-do-you-see-yourself-in-5-years-c2d31311cb1f?source=rss-c239fa1052f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
