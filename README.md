@@ -28,7 +28,7 @@
 
 # [Blogs](https://mayank1513.medium.com/)
 <!-- BLOG-POST-LIST:START -->
-- [Unleash the Power of React Server Components](https://mayank1513.medium.com/unleash-the-power-of-react-server-components-eb3fe7201231?source=rss-c239fa1052f9------2)
+- [Unleash the Power of React Server Components](https://javascript.plainenglish.io/unleash-the-power-of-react-server-components-eb3fe7201231?source=rss-c239fa1052f9------2)
 - [Understanding the Nuxt 3 Directory structure](https://mayank1513.medium.com/understanding-the-nuxt-3-directory-structure-d39f21f8eaa0?source=rss-c239fa1052f9------2)
 - [Ways to prevent banking frauds!](https://mayank1513.medium.com/ways-to-prevent-banking-frauds-ac3ac4a2eae9?source=rss-c239fa1052f9------2)
 - [JS Funda: Client-Side Routing and The History API](https://mayank1513.medium.com/js-funda-client-side-routing-and-the-history-api-c4ebd4de977a?source=rss-c239fa1052f9------2)
