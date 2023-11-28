@@ -1,7 +1,8 @@
 [<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50" style="padding:150px"/>](https://mayank-chaudhari.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp;  [<img src="/devops.png" width="90" height="90" />](https://www.credly.com/badges/174bcfa0-e51c-4836-ac00-bf8c43f5ae0a/public_url) &nbsp;&nbsp;&nbsp;&nbsp;  [<img src="/ai.png" width="80" height="80"/>](https://www.credly.com/users/mayank-kumar-chaudhari/badges)   &nbsp;&nbsp;&nbsp;&nbsp; 
 
-// [![Mayank Chaudhari StackOverflow](https://mayank-chaudhari.vercel.app/api/stack-overflow)](https://stackoverflow.com/users/9640177/mayank1513)
-
+<!---
+[![Mayank Chaudhari StackOverflow](https://mayank-chaudhari.vercel.app/api/stack-overflow)](https://stackoverflow.com/users/9640177/mayank1513)
+--->
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
