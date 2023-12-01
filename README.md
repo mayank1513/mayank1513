@@ -31,11 +31,11 @@
 
 # [Blogs](https://mayank1513.medium.com/)
 <!-- BLOG-POST-LIST:START -->
+- [How Can You Kill Your Mother?](https://mayank1513.medium.com/how-can-you-kill-your-mother-4040045f48e2?source=rss-c239fa1052f9------2)
+- [Unleash the Power of React Server Components with React18-Themes v2](https://mayank1513.medium.com/unleash-the-power-of-react-server-components-with-react18-themes-v2-3ef90a19bee4?source=rss-c239fa1052f9------2)
 - [Streamline Your Workflow with Kanban Board Extension for VS Code](https://mayank1513.medium.com/streamline-your-workflow-with-kanban-board-extension-for-vs-code-fd6519063482?source=rss-c239fa1052f9------2)
 - [Creating a Tag Input Component Using the Vue 3 Composition API](https://javascript.plainenglish.io/creating-a-tag-input-component-using-the-vue-3-composition-api-feae06d58492?source=rss-c239fa1052f9------2)
 - [Unleash the Power of React Server Components](https://javascript.plainenglish.io/unleash-the-power-of-react-server-components-eb3fe7201231?source=rss-c239fa1052f9------2)
-- [Understanding the Nuxt 3 Directory structure](https://mayank1513.medium.com/understanding-the-nuxt-3-directory-structure-d39f21f8eaa0?source=rss-c239fa1052f9------2)
-- [Ways to prevent banking frauds!](https://mayank1513.medium.com/ways-to-prevent-banking-frauds-ac3ac4a2eae9?source=rss-c239fa1052f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
