@@ -7,7 +7,7 @@
 
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
 
-> Experience: 8 years, Architect/Senior/Lead Full Stack/Front End Engineer
+> Experience: 9 years, Architect/Senior/Lead Full Stack/Front End Engineer
 
 **Key Skills**: JavaScript/TypeScript, React/Next.js/JSX, HTML/CSS/SCSS, Vue.js/Nuxt.js, Firebase, Prisma, Firefox-addon, Azure/Amazon Web Services/Google Cloud Platform, Android/Java
 
