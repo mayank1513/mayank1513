@@ -31,11 +31,11 @@
 
 # [Blogs](https://mayank1513.medium.com/)
 <!-- BLOG-POST-LIST:START -->
+- [Elevate Your Career: Showcasing Skills and Innovation through Open Source NPM Libraries](https://mayank1513.medium.com/elevate-your-career-showcasing-skills-and-innovation-through-open-source-npm-libraries-62a2c90a7f6d?source=rss-c239fa1052f9------2)
 - [Why do companies publish free and open source software?](https://mayank1513.medium.com/why-do-companies-publish-free-and-open-source-software-3b626f47c864?source=rss-c239fa1052f9------2)
 - [Nx.dev vs. Turborepo: Which Monorepo Tool is Right for Your Project?](https://mayank1513.medium.com/nx-dev-vs-turborepo-which-monorepo-tool-is-right-for-your-project-be6e8658f95e?source=rss-c239fa1052f9------2)
 - [Mastering React 18: A Comprehensive Guide to Publishing Powerful Libraries](https://mayank1513.medium.com/mastering-react-18-a-comprehensive-guide-to-publishing-powerful-libraries-dbc9e02dfba6?source=rss-c239fa1052f9------2)
 - [How Can You Kill Your Mother?](https://mayank1513.medium.com/how-can-you-kill-your-mother-4040045f48e2?source=rss-c239fa1052f9------2)
-- [Unleash the Power of React Server Components with React18-Themes v2](https://mayank1513.medium.com/unleash-the-power-of-react-server-components-with-react18-themes-v2-3ef90a19bee4?source=rss-c239fa1052f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
