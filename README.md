@@ -31,11 +31,11 @@
 
 # [Blogs](https://mayank1513.medium.com/)
 <!-- BLOG-POST-LIST:START -->
+- [Enter the New Era of React 18 Library Building: Introducing esbuild-plugin-react18-css](https://mayank1513.medium.com/enter-the-new-era-of-react-18-library-building-introducing-esbuild-plugin-react18-css-becf1916c97c?source=rss-c239fa1052f9------2)
 - [Maximizing Your Learning Potential: Getting the Best Out of an Online Software Engineering Course](https://mayank1513.medium.com/maximizing-your-learning-potential-getting-the-best-out-of-an-online-software-engineering-course-029f5d1ccd32?source=rss-c239fa1052f9------2)
 - [Elevate Your Career: Showcasing Skills and Innovation through Open Source NPM Libraries](https://mayank1513.medium.com/elevate-your-career-showcasing-skills-and-innovation-through-open-source-npm-libraries-62a2c90a7f6d?source=rss-c239fa1052f9------2)
 - [Why do companies publish free and open source software?](https://mayank1513.medium.com/why-do-companies-publish-free-and-open-source-software-3b626f47c864?source=rss-c239fa1052f9------2)
 - [Nx.dev vs. Turborepo: Which Monorepo Tool is Right for Your Project?](https://mayank1513.medium.com/nx-dev-vs-turborepo-which-monorepo-tool-is-right-for-your-project-be6e8658f95e?source=rss-c239fa1052f9------2)
-- [Mastering React 18: A Comprehensive Guide to Publishing Powerful Libraries](https://mayank1513.medium.com/mastering-react-18-a-comprehensive-guide-to-publishing-powerful-libraries-dbc9e02dfba6?source=rss-c239fa1052f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
