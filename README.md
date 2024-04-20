@@ -5,7 +5,7 @@
 --->
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
-![NPM packages downloads](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)
+[![NPM packages downloads](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) [![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) 
 
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
 
@@ -21,7 +21,7 @@
 - Amazing clients and collaborators including Microsoft, WHO, Sequoia Capital, Just Analytics, NUS, MIT, Default
 - Multi-domain expertise with experience working on cutting-edge projects - Front end and Android, Nextgen Solar cell research (in collaboration with MIT), Advanced scrapping with cognitive capabilities, Computer vision and ML POCs, MVP – Tele-bot powered by data and AI that talked like human and understood human language, cutting-edge front-end project.
 - [Microsoft certified professional](https://www.credly.com/badges/174bcfa0-e51c-4836-ac00-bf8c43f5ae0a/public_url).
-- Open source contributor: GitHub ![NPM packages downloads](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)
+- Open source contributor: GitHub [![NPM packages downloads](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) [![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author)
 
 <!-- social badges -->
 
