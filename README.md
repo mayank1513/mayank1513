@@ -5,7 +5,7 @@
 --->
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
-[![NPM packages downloads](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) [![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) 
+[![NPM Downloads for packages by mayank1513](https://img.shields.io/npm-stat/dm/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) [![NPM Downloads for packages by mayank1513](https://img.shields.io/npm-stat/dy/mayank1513?logo=npm)](https://shields.io/badges/npm-downloads-by-package-author) 
 
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
 
