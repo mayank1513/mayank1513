@@ -1,4 +1,4 @@
-name: setup repo
+name: Create badge
 
 on:
   push:
