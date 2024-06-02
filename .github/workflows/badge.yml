@@ -7,7 +7,7 @@ on:
     - cron: "0 */18 * * *"
 
 jobs:
-  setup:
+  crate_badge:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
@@ -26,6 +26,7 @@ jobs:
       - name: Set up repo
         run: chmod +x ./npm-downloads.sh && (sudo bash ./npm-downloads.sh || ./npm-downloads.sh)
       - name: Push changes back to repo
+        continue-on-error: true
         run: |
           git add .
           git commit -m 'Update npm download badge [skip ci]'
