@@ -36,13 +36,9 @@ if [ -z "$packages" ]; then
     echo "No packages found for user $user"
 else
     total_downloads=0
-    package_count=$(echo "$packages" | wc -l)
-    counter=1
-    while [ $counter -le $package_count ]; do
-        package=$(echo "$packages" | sed -n "${counter}p")
+    for package in $packages; do
         download_count=$(fetch_download_count "$package")
         total_downloads=$((total_downloads + download_count))
-        counter=$((counter + 1))
     done
 
     formated_downloads=$(format_number $total_downloads)
