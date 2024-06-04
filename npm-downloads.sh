@@ -20,13 +20,13 @@ fetch_download_count() {
 
 format_number() {
     local number=$1
-    local suffixes=("k" "M" "G" "T" "P" "E" "Z" "Y")
+    local suffixes=("" "k" "M" "G" "T" "P" "E" "Z" "Y")
     local index=0
     while ((number >= 1000)); do
         number=$((number / 1000))
         ((index++))
     done
-    printf "%d %s" "$number" "${suffixes[index - 1]}"
+    printf "%d %s" "$number" "${suffixes[index]}"
 }
 
 user="mayank1513"
