@@ -26,7 +26,7 @@ format_number() {
         number=$((number / 1000))
         ((index++))
     done
-    printf "%d %s" "$number" "${suffixes[index]}"
+    printf "%d %s" "$number" "${suffixes[index - 1]}"
 }
 
 user="mayank1513"
