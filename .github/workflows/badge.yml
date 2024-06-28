@@ -7,7 +7,7 @@ on:
     - cron: "0 */12 * * *"
 
 jobs:
-  crate_badge:
+  create_badge:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
