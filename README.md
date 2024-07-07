@@ -26,7 +26,7 @@
 - Amazing clients and collaborators including Microsoft, WHO, Sequoia Capital, Just Analytics, NUS, MIT, Default
 - Multi-domain expertise with experience working on cutting-edge projects - Front end and Android, Nextgen Solar cell research (in collaboration with MIT), Advanced scrapping with cognitive capabilities, Computer vision and ML POCs, MVP – Tele-bot powered by data and AI that talked like human and understood human language, cutting-edge front-end project.
 - [Microsoft certified professional](https://www.credly.com/badges/174bcfa0-e51c-4836-ac00-bf8c43f5ae0a/public_url).
-- Open source contributor: GitHub [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) ![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools) ![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)
+- Open source contributor: GitHub [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) [![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)](https://github.com/react18-tools/) [![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)](https://github.com/mayank1513)
 
 <!-- social badges -->
 
