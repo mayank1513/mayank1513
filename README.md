@@ -8,9 +8,9 @@
 
 [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
 
-[![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)](https://github.com/react18-tools/)
+<!-- [![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)](https://github.com/react18-tools/) -->
 
-[![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)](https://github.com/mayank1513)
+<!-- [![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)](https://github.com/mayank1513) -->
 
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
 
