@@ -8,6 +8,10 @@
 
 [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
 
+![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)
+
+![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)
+
 > Dynamic and detail-oriented Software Architect with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficiently. Enjoy building powerful web applications, learning new technologies, and improving overall knowledge. A dedicated and persistent person. A team player but do not shy away from working as an individual contributor.
 
 > Experience: 9 years, Architect/Senior/Lead Full Stack/Front End Engineer
@@ -22,7 +26,7 @@
 - Amazing clients and collaborators including Microsoft, WHO, Sequoia Capital, Just Analytics, NUS, MIT, Default
 - Multi-domain expertise with experience working on cutting-edge projects - Front end and Android, Nextgen Solar cell research (in collaboration with MIT), Advanced scrapping with cognitive capabilities, Computer vision and ML POCs, MVP – Tele-bot powered by data and AI that talked like human and understood human language, cutting-edge front-end project.
 - [Microsoft certified professional](https://www.credly.com/badges/174bcfa0-e51c-4836-ac00-bf8c43f5ae0a/public_url).
-- Open source contributor: GitHub [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
+- Open source contributor: GitHub [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) ![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools) ![Mayank Chaudhari's stars excluding organizations](https://img.shields.io/github/stars/mayank1513?label=mayank1513)
 
 <!-- social badges -->
 
@@ -36,6 +40,7 @@
 # [Blogs](https://mayank1513.medium.com/)
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Introducing `Treeshakable`: Optimize Your React 18 Applications](https://mayank1513.medium.com/introducing-treeshakable-optimize-your-react-18-applications-f063cc8ac2e2?source=rss-c239fa1052f9------2)
 - [Unveiling the Good and the Grit: Barrel Files in Node.js Development](https://mayank1513.medium.com/unveiling-the-good-and-the-grit-barrel-files-in-node-js-development-845ee282fd32?source=rss-c239fa1052f9------2)
 - [Enter the New Era of React 18 Library Building: Introducing esbuild-plugin-react18-css](https://mayank1513.medium.com/enter-the-new-era-of-react-18-library-building-introducing-esbuild-plugin-react18-css-becf1916c97c?source=rss-c239fa1052f9------2)
