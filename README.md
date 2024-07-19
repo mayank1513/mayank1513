@@ -6,7 +6,7 @@
 
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
-[![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
+<img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/> [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
 
 <!-- [![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)](https://github.com/react18-tools/) -->
 
@@ -40,6 +40,7 @@
 # [Blogs](https://mayank1513.medium.com/)
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Unveiling the Good and the Grit: Barrel Files in Node.js Development](https://mayank1513.medium.com/unveiling-the-good-and-the-grit-barrel-files-in-node-js-development-845ee282fd32?source=rss-c239fa1052f9------2)
 - [Enter the New Era of React 18 Library Building: Introducing esbuild-plugin-react18-css](https://mayank1513.medium.com/enter-the-new-era-of-react-18-library-building-introducing-esbuild-plugin-react18-css-becf1916c97c?source=rss-c239fa1052f9------2)
 - [Maximizing Your Learning Potential: Getting the Best Out of an Online Software Engineering Course](https://mayank1513.medium.com/maximizing-your-learning-potential-getting-the-best-out-of-an-online-software-engineering-course-029f5d1ccd32?source=rss-c239fa1052f9------2)
