@@ -6,7 +6,7 @@
 
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
-<img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/> [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml)
+<img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/> [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) <img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/>
 
 <!-- [![React18 Tools Organization's stars](https://img.shields.io/github/stars/react18-tools?label=react18-tools)](https://github.com/react18-tools/) -->
 
