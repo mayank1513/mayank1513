@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -24,8 +24,10 @@ jobs:
           git config --global user.email "mayank.srmu@gmail.com"
           git fetch
           git checkout main
-      - name: Set up repo
-        run: chmod +x ./npm-downloads.sh && (sudo bash ./npm-downloads.sh || ./npm-downloads.sh)
+      - name: Create badges
+        run: |
+          chmod +x ./npm-downloads.sh && (sudo bash ./npm-downloads.sh || ./npm-downloads.sh)
+          chmod +x ./stack-overflow.sh && (sudo bash ./stack-overflow.sh || ./stack-overflow.sh)
       - name: Push changes back to repo
         continue-on-error: true
         run: |
