@@ -32,7 +32,6 @@ hk=( "#4A4E51 #2D2D2D #F2F2F3 .svg" "#eff0f1 #fff #0f0f0f -light.svg")
 
 for ks in "${hk[@]}"; do
   read -r c1 c2 c3 f <<< "$ks"
-  echo "$c1 $c2 $c3 $f"
   
   h=80
   w=280
