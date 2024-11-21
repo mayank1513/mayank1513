@@ -1,8 +1,6 @@
 [<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50" style="padding:150px"/>](https://mayank-chaudhari.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/devops.png" width="90" height="90" />](https://learn.microsoft.com/en-us/users/mayankchaudhari-7595/credentials/3fecfbc2d9f3c0e4) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/ai.png" width="80" height="80"/>](https://learn.microsoft.com/api/credentials/share/en-us/MayankChaudhari-7595/B260BA735B9266C4?sharingId=C8E84CAF421EA445) &nbsp;&nbsp;&nbsp;&nbsp;
 
-<!---
-[![Mayank Chaudhari StackOverflow](https://mayank-chaudhari.vercel.app/api/stack-overflow)](https://stackoverflow.com/users/9640177/mayank1513)
---->
+[![Mayank Chaudhari StackOverflow](.badges/stack-overflow.svg)](https://stackoverflow.com/users/9640177/mayank1513)
 
 [![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
 
@@ -40,6 +38,7 @@
 # [Blogs](https://mayank1513.medium.com/)
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Unveiling the Good and the Grit: Barrel Files in Node.js Development](https://mayank1513.medium.com/unveiling-the-good-and-the-grit-barrel-files-in-node-js-development-845ee282fd32?source=rss-c239fa1052f9------2)
 - [Enter the New Era of React 18 Library Building: Introducing esbuild-plugin-react18-css](https://mayank1513.medium.com/enter-the-new-era-of-react-18-library-building-introducing-esbuild-plugin-react18-css-becf1916c97c?source=rss-c239fa1052f9------2)
 - [Maximizing Your Learning Potential: Getting the Best Out of an Online Software Engineering Course](https://mayank1513.medium.com/maximizing-your-learning-potential-getting-the-best-out-of-an-online-software-engineering-course-029f5d1ccd32?source=rss-c239fa1052f9------2)
