@@ -21,11 +21,13 @@ format_number() {
     local number=$1
     local suffixes=("" "k" "M" "G" "T" "P" "E" "Z" "Y")
     local index=0
-    while ((number >= 1000)); do
-        number=$(awk "BEGIN {print $number / 1000}")
-        ((index++))
+
+    while [ "$(awk "BEGIN {print ($number >= 1000)}")" -eq 1 ]; do
+        number=$(awk "BEGIN {printf \"%.2f\", $number / 1000}")
+        index=$((index + 1))
     done
-    printf "%.1f %s" "$number" "${suffixes[index]}"
+
+    printf "%.1f%s\n" "$number" "${suffixes[index]}"
 }
 
 hk=( "#4A4E51 #2D2D2D #F2F2F3 .svg" "#eff0f1 #fff #0f0f0f -light.svg")
