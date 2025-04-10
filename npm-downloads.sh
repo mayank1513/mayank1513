@@ -39,7 +39,6 @@ if [ -z "$packages" ]; then
 else
     total_downloads=0
     for package in $packages; do
-        echo "Fetching download count for package $package..."
         download_count=$(fetch_download_count "$package")
         total_downloads=$((total_downloads + download_count))
         echo "Download count for package $package: $download_count"
