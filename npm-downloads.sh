@@ -2,14 +2,14 @@
 
 fetch_packages() {
     local user=$1
-    local response=$(curl -s "https://registry.npmjs.org/-/v1/search?text=maintainer:$user")
+    local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://registry.npmjs.org/-/v1/search?text=maintainer:$user&size=90")
     [ $? -ne 0 ] && exit 1
     echo "$response" | jq -r '.objects[].package.name'
 }
 
 fetch_download_count() {
     local package=$1
-    local response=$(curl -s "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$(jq -rn --arg value "$package" '$value | @uri')")
+    local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$(jq -rn --arg value "$package" '$value | @uri')")
 
     [ $? -ne 0 ] && exit 1
 

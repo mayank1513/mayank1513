@@ -28,6 +28,8 @@ jobs:
         run: |
           chmod +x ./npm-downloads.sh && (sudo bash ./npm-downloads.sh || ./npm-downloads.sh)
           chmod +x ./stack-overflow.sh && (sudo bash ./stack-overflow.sh || ./stack-overflow.sh)
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Push changes back to repo
         continue-on-error: true
         run: |
