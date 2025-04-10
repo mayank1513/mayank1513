@@ -2,7 +2,7 @@
 
 fetch_packages() {
     local user=$1
-    local response=$(curl -s "https://registry.npmjs.org/-/v1/search?text=maintainer:$user&size=100")
+    local response=$(curl -s "https://registry.npmjs.org/-/v1/search?text=maintainer:$user")
     [ $? -ne 0 ] && exit 1
     echo "$response" | jq -r '.objects[].package.name'
 }
