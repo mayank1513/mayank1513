@@ -42,6 +42,7 @@ else
         download_count=$(fetch_download_count "$package")
         total_downloads=$((total_downloads + download_count))
         echo "Download count for package $package: $download_count"
+        sleep .2
     done
 
     formated_downloads=$(format_number $total_downloads)
