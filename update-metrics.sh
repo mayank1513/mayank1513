@@ -107,4 +107,4 @@ jq -n \
       rank: $rank,
       badges: { gold: ($gold|tonumber), silver: ($silver|tonumber), bronze: ($bronze|tonumber) }
     }
-  }' > "$METRICS_FILE"
+  }' > "metrics.json"
