@@ -36,8 +36,12 @@ fetch_packages() {
 
 fetch_download_count() {
   local pkg=$1
-  curl -s "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$(jq -rn --arg v "$pkg" '$v|@uri')" |
-    jq -r '.downloads // 0'
+  local url encoded
+
+  encoded=$(printf '%s' "$pkg" | jq -sRr @uri)
+  url="https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$encoded"
+
+  curl -sf "$url" | jq -r '.downloads // 0' || echo 0
 }
 
 export -f fetch_download_count
