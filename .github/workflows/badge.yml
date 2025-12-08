@@ -25,9 +25,7 @@ jobs:
           git fetch
           git checkout main
       - name: Create badges
-        run: |
-          chmod +x ./npm-downloads.sh && (sudo bash ./npm-downloads.sh || ./npm-downloads.sh)
-          chmod +x ./stack-overflow.sh && (sudo bash ./stack-overflow.sh || ./stack-overflow.sh)
+        run: ./update-metrics.sh
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Push changes back to repo
