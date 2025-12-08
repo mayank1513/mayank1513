@@ -11,11 +11,6 @@ BADGE_DIR=".badges"
 METRICS_FILE="$BADGE_DIR/metrics.json"
 PARALLEL_JOBS=6
 
-# =========================
-# VALIDATION
-# =========================
-command -v curl jq xargs awk sed grep expr >/dev/null || exit 2
-[ -z "$NPM_TOKEN" ] && { echo "Missing NPM_TOKEN"; exit 2; }
 mkdir -p "$BADGE_DIR"
 
 # =========================
