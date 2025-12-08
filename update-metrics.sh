@@ -40,6 +40,8 @@ fetch_download_count() {
     jq -r '.downloads // 0'
 }
 
+export -f fetch_download_count
+
 packages=$(fetch_packages)
 npm_total=$(
   printf "%s\n" "$packages" |
