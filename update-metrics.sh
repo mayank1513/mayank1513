@@ -55,7 +55,7 @@ done
 # NPM
 fetch_packages() {
     local NPM_USER=$1
-    local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://registry.npmjs.org/-/v1/search?text=maintainer:$NPM_USER&size=100")
+    local response=$(curl -s "https://registry.npmjs.org/-/v1/search?text=author:$NPM_USER&size=250")
     [ $? -ne 0 ] && exit 1
     echo "$response" | jq -r '.objects[].package.name'
 }
@@ -80,8 +80,8 @@ else
     for package in $packages; do
         download_count=$(fetch_download_count "$package")
         total_downloads=$((total_downloads + download_count))
-        echo "Download count for package $package: $download_count"
-        sleep .2
+        echo "Download count for package $package: $download_count, total: $total_downloads"
+        sleep .3
     done
 
     formated_downloads=$(format_number $total_downloads)
