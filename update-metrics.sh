@@ -94,7 +94,7 @@ while IFS=' ' read -r package monthly weekly; do
   echo "Download count for package $package: $download_count, total: $total_downloads"
   sleep 0.2
   # pause a bit more every 10 packages
-  if (( count % 10 == 0 )); then
+  if (( count % 8 == 0 )); then
     echo "Processed $count packages — taking a breather..."
     sleep 2
   fi
@@ -111,6 +111,10 @@ echo "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/199
 jq -n \
   --arg npm "$total_downloads" \
   --arg npm_fmt "$formated_downloads" \
+  --arg npm_monthly "$monthly_total" \
+  --arg npm_monthly_fmt "$(format_number $monthly_total)" \  
+  --arg npm_weekly "$weekly_total" \
+  --arg npm_weekly_fmt "$(format_number $weekly_total)" \
   --arg rep "$reputation" \
   --arg rep_fmt "$(format_number $reputation)" \
   --arg rank "$rank" \
@@ -118,7 +122,14 @@ jq -n \
   --arg silver "$silver" \
   --arg bronze "$bronze" \
   '{
-    npm: { total: ($npm|tonumber), formatted: $npm_fmt },
+    npm: { 
+      total: ($npm|tonumber), 
+      formatted: $npm_fmt,
+      monthly: ($npm_monthly|tonumber), 
+      monthly_formatted: $npm_monthly_fmt,
+      weekly: ($npm_weekly|tonumber), 
+      weekly_formatted: $npm_weekly_fmt
+    },
     stackoverflow: {
       reputation: ($rep|tonumber),
       formatted: $rep_fmt,
