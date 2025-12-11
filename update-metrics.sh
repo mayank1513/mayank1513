@@ -76,13 +76,22 @@ packages=$(fetch_packages "$NPM_USER")
 if [ -z "$packages" ]; then
     echo "No packages found for npm user $NPM_USER"
 else
+    count=0
     total_downloads=0
     for package in $packages; do
         download_count=$(fetch_download_count "$package")
         total_downloads=$((total_downloads + download_count))
+        count=$((count + 1))
         echo "Download count for package $package: $download_count, total: $total_downloads"
-        sleep .3
+        sleep 0.2
+
+        # pause a bit more every 50 packages
+        if (( count % 50 == 0 )); then
+          echo "Processed $count packages — taking a breather..."
+          sleep 2
+        fi
     done
+
 
     formated_downloads=$(format_number $total_downloads)
     echo "Total downloads for packages published by $NPM_USER: $total_downloads ~ $formated_downloads"
