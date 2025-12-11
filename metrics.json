@@ -1,11 +1,11 @@
 {
   "npm": {
-    "total": 5226479,
-    "formatted": "5.2M",
-    "failed": 78,
-    "monthly": 701010,
+    "total": 5273789,
+    "formatted": "5.3M",
+    "failed": 68,
+    "monthly": 701007,
     "monthly_formatted": "701.0k",
-    "weekly": 172284,
+    "weekly": 172293,
     "weekly_formatted": "172.3k"
   },
   "stackoverflow": {
