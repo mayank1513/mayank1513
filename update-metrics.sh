@@ -92,27 +92,27 @@ while IFS=' ' read -r package monthly weekly; do
   download_count=$(fetch_download_count "$package")
   total_downloads=$((total_downloads + download_count))
   echo "Download count for package $package: $download_count, total: $total_downloads"
-  sleep 0.2
+  sleep 0.25
   # pause a bit more every 10 packages
-  if (( count % 8 == 0 )); then
+  if (( count % 10 == 0 )); then
     echo "Processed $count packages — taking a breather..."
-    sleep 2
+    sleep 2.1
   fi
 done < <(fetch_packages "$NPM_USER")
-
-printf "Processed %d packages\n" "$count"
-printf "TOTAL monthly: %d\nTOTAL weekly: %d\n" "$monthly_total" "$weekly_total"
 
 formated_downloads=$(format_number $total_downloads)
 echo "Total downloads for packages published by $NPM_USER: $total_downloads ~ $formated_downloads"
 echo "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='129' height='20' aria-label='downloads: $formated_downloads'><linearGradient id='b' x2='0' y2='100%'><stop offset='0' stop-color='#bbb' stop-opacity='.1'/><stop offset='1' stop-opacity='.1'/></linearGradient><clipPath id='a'><rect width='129' height='20' fill='#fff' rx='3'/></clipPath><g clip-path='url(#a)'><path fill='#555' d='M0 0h86v20H0z'/><path fill='#4c1' d='M86 0h67v20H86z'/><path fill='url(#b)' d='M0 0h129v20H0z'/></g><g fill='#fff' font-family='Verdana,Geneva,DejaVu Sans,sans-serif' font-size='110' text-anchor='middle' text-rendering='geometricPrecision'><image xlink:href='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+PHBhdGggZD0iTTAgMGg0MHY0MEgwVjB6IiBmaWxsPSIjY2IwMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTcgN2gyNnYyNmgtN1YxNGgtNnYxOUg3eiIvPjwvc3ZnPg==' width='14' height='14' x='5' y='3'/><text x='525' y='150' fill='#010101' fill-opacity='.3' aria-hidden='true' textLength='590' transform='scale(.1)'>downloads</text><text x='525' y='140' textLength='590' transform='scale(.1)'>downloads</text><text x='978' y='142' fill='#010101' fill-opacity='.3' aria-hidden='true' transform='scale(.11)'>$formated_downloads</text><text x='968' y='135' transform='scale(.11)'>$formated_downloads</text></g></svg>" > .badges/npm-downloads.svg
+
+printf "Processed %d packages\n" "$count"
+printf "TOTAL monthly: %d\nTOTAL weekly: %d\n" "$monthly_total" "$weekly_total"
 
 # Metrics
 jq -n \
   --arg npm "$total_downloads" \
   --arg npm_fmt "$formated_downloads" \
   --arg npm_monthly "$monthly_total" \
-  --arg npm_monthly_fmt "$(format_number $monthly_total)" \  
+  --arg npm_monthly_fmt "$(format_number $monthly_total)" \
   --arg npm_weekly "$weekly_total" \
   --arg npm_weekly_fmt "$(format_number $weekly_total)" \
   --arg rep "$reputation" \
@@ -137,3 +137,5 @@ jq -n \
       badges: { gold: ($gold|tonumber), silver: ($silver|tonumber), bronze: ($bronze|tonumber) }
     }
   }' > "metrics.json"
+
+echo "Total downloads" "$formated_downloads"
