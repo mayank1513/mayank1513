@@ -86,7 +86,7 @@ else
         sleep 0.2
 
         # pause a bit more every 50 packages
-        if (( count % 50 == 0 )); then
+        if (( count % 10 == 0 )); then
           echo "Processed $count packages — taking a breather..."
           sleep 2
         fi
