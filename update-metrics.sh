@@ -69,14 +69,31 @@ fetch_packages() {
     ' | tr "\t" " "
 }
 
+failed_count=0
+
 fetch_download_count() {
     local package=$1
     local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$package")
+    
+    local curl_exit=$?
 
-    [ $? -ne 0 ] && exit 1
+    # curl failed → count as failure
+    if (( curl_exit != 0 )); then
+        failed_count=$((failed_count + 1))
+        echo 0
+        return 0
+    fi
 
     local count=$(echo "$response" | jq -r '.downloads')
     [ "$count" == "null" ] && count=0
+
+    # jq failed OR no downloads field → count as failure
+    if [[ -z "$count" ]]; then
+        failed_count=$((failed_count + 1))
+        echo 0
+        return 0
+    fi
+
     echo "$count"
 }
 
@@ -138,4 +155,5 @@ jq -n \
     }
   }' > "metrics.json"
 
-echo "Total downloads" "$formated_downloads"
+echo "Failed to get count for $failed_count packages"
+echo "Total downloads $formated_downloads"
