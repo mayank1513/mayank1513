@@ -69,31 +69,14 @@ fetch_packages() {
     ' | tr "\t" " "
 }
 
-failed_count=0
-
 fetch_download_count() {
     local package=$1
     local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$package")
-    
-    local curl_exit=$?
 
-    # curl failed → count as failure
-    if (( curl_exit != 0 )); then
-        failed_count=$((failed_count + 1))
-        echo 0
-        return 0
-    fi
+    [ $? -ne 0 ] && exit 1
 
     local count=$(echo "$response" | jq -r '.downloads')
     [ "$count" == "null" ] && count=0
-
-    # jq failed OR no downloads field → count as failure
-    if [[ -z "$count" ]]; then
-        failed_count=$((failed_count + 1))
-        echo 0
-        return 0
-    fi
-
     echo "$count"
 }
 
@@ -101,13 +84,18 @@ monthly_total=0
 weekly_total=0
 total_downloads=0
 count=0
+failed_count=0
 
 while IFS=' ' read -r package monthly weekly; do
   count=$((count + 1))
   monthly_total=$((monthly_total + monthly))
   weekly_total=$((weekly_total + weekly))
   download_count=$(fetch_download_count "$package")
-  total_downloads=$((total_downloads + download_count))
+  if (( download_count )); then
+    total_downloads=$((total_downloads + download_count))
+  elif (( download_count == 0 )); then
+    failed_count=$((failed_count + 1))
+  fi
   echo "Download count for package $package: $download_count, total: $total_downloads"
   sleep 0.25
   # pause a bit more every 10 packages
@@ -128,6 +116,7 @@ printf "TOTAL monthly: %d\nTOTAL weekly: %d\n" "$monthly_total" "$weekly_total"
 jq -n \
   --arg npm "$total_downloads" \
   --arg npm_fmt "$formated_downloads" \
+  --arg npm_failed "$failed_count" \
   --arg npm_monthly "$monthly_total" \
   --arg npm_monthly_fmt "$(format_number $monthly_total)" \
   --arg npm_weekly "$weekly_total" \
@@ -142,6 +131,7 @@ jq -n \
     npm: { 
       total: ($npm|tonumber), 
       formatted: $npm_fmt,
+      failed: $failed_count,
       monthly: ($npm_monthly|tonumber), 
       monthly_formatted: $npm_monthly_fmt,
       weekly: ($npm_weekly|tonumber), 
