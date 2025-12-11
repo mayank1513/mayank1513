@@ -89,14 +89,14 @@ while IFS=' ' read -r pkg monthly weekly; do
   count=$((count + 1))
   monthly_total=$((monthly_total + monthly))
   weekly_total=$((weekly_total + weekly))
-  download_count=$(fetch_download_count "$package")
+  download_count=$(fetch_download_count "$pkg")
   total_downloads=$((total_downloads + download_count))
   echo "Download count for package $package: $download_count, total: $total_downloads"
   sleep 0.2
   # pause a bit more every 10 packages
   if (( count % 10 == 0 )); then
     echo "Processed $count packages — taking a breather..."
-    sleep 1.8
+    sleep 2
   fi
 done < <(fetch_packages "$NPM_USER")
 
