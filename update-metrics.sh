@@ -85,11 +85,11 @@ weekly_total=0
 total_downloads=0
 count=0
 
-while IFS=' ' read -r pkg monthly weekly; do
+while IFS=' ' read -r package monthly weekly; do
   count=$((count + 1))
   monthly_total=$((monthly_total + monthly))
   weekly_total=$((weekly_total + weekly))
-  download_count=$(fetch_download_count "$pkg")
+  download_count=$(fetch_download_count "$package")
   total_downloads=$((total_downloads + download_count))
   echo "Download count for package $package: $download_count, total: $total_downloads"
   sleep 0.2
