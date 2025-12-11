@@ -1,0 +1,21 @@
+{
+  "npm": {
+    "total": 5236214,
+    "formatted": "5.2M",
+    "failed": 68,
+    "monthly": 700371,
+    "monthly_formatted": "700.4k",
+    "weekly": 172930,
+    "weekly_formatted": "172.9k"
+  },
+  "stackoverflow": {
+    "reputation": 19284,
+    "formatted": "19.3k",
+    "rank": "",
+    "badges": {
+      "gold": 14,
+      "silver": 74,
+      "bronze": 165
+    }
+  }
+}
