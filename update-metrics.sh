@@ -131,7 +131,7 @@ jq -n \
     npm: { 
       total: ($npm|tonumber), 
       formatted: $npm_fmt,
-      failed: $failed_count,
+      failed: ($npm_failed|tonumber),
       monthly: ($npm_monthly|tonumber), 
       monthly_formatted: $npm_monthly_fmt,
       weekly: ($npm_weekly|tonumber), 
