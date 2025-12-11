@@ -83,12 +83,11 @@ else
         total_downloads=$((total_downloads + download_count))
         count=$((count + 1))
         echo "Download count for package $package: $download_count, total: $total_downloads"
-        sleep 0.2
 
         # pause a bit more every 50 packages
-        if (( count % 15 == 0 )); then
+        if (( count % 10 == 0 )); then
           echo "Processed $count packages — taking a breather..."
-          sleep 1
+          sleep 1.5
         fi
     done
 
