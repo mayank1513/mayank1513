@@ -97,43 +97,15 @@ while IFS=' ' read -r package monthly weekly; do
   elif (( download_count == 0 )); then
     failed_count=$((failed_count + 1))
     FAILED_PACKAGES+=("$package")
-    echo "Failed to fetch download count for package $package, taking a pause..."
-    sleep 20
   fi
   echo "Download count for package $package: $download_count, total: $total_downloads"
-  # sleep 0.2
+  sleep 0.25
   # pause a bit more every 10 packages
-  # if (( count % 10 == 0 )); then
-  #   echo "Processed $count packages — taking a breather..."
-  #   sleep 2.1
-  # fi
-done < <(fetch_packages "$NPM_USER")
-
-echo "Failed to fetch download count for $failed_count packages: ${FAILED_PACKAGES[*]}"
-echo "waiting ..."
-sleep 2
-
-new_failed_count=0
-for package in "${FAILED_PACKAGES[@]}"; do
-  count=$((count + 1))
-
-  download_count=$(fetch_download_count "$package")
-
-  if (( download_count )); then
-    total_downloads=$((total_downloads + download_count))
-  else
-    new_failed_count=$((new_failed_count + 1))
-    sleep 3
+  if (( count % 10 == 0 )); then
+    echo "Processed $count packages — taking a breather..."
+    sleep 2.1
   fi
-
-  echo "Download count for package $package: $download_count, total: $total_downloads"
-  sleep 0.2
-
-  # if (( count % 10 == 0 )); then
-  #   echo "Processed $count packages — taking a breather..."
-  #   sleep 2.1
-  # fi
-done
+done < <(fetch_packages "$NPM_USER")
 
 formated_downloads=$(format_number $total_downloads)
 echo "Total downloads for packages published by $NPM_USER: $total_downloads ~ $formated_downloads"
@@ -160,7 +132,7 @@ echo "GitHub Stars -> Total: $stars_total (mayank1513: $stars_mayank, md2docx: $
 jq -n \
   --arg npm "$total_downloads" \
   --arg npm_fmt "$formated_downloads" \
-  --arg npm_failed "$new_failed_count" \
+  --arg npm_failed "$failed_count" \
   --arg npm_monthly "$monthly_total" \
   --arg npm_monthly_fmt "$(format_number $monthly_total)" \
   --arg npm_weekly "$weekly_total" \
@@ -200,5 +172,4 @@ jq -n \
   }' > "metrics.json"
 
 echo "Failed to get count for $failed_count packages"
-echo "In Retry: Failed to get count for $new_failed_count packages"
 echo "Total downloads $formated_downloads"
