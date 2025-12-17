@@ -112,6 +112,23 @@ echo "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/199
 printf "Processed %d packages\n" "$count"
 printf "TOTAL monthly: %d\nTOTAL weekly: %d\n" "$monthly_total" "$weekly_total"
 
+# GitHub Stats
+get_gh_stars() {
+  local target=$1
+  local count
+  # Fetch public repos, source only (no forks), sum stargazersCount
+  count=$(gh repo list "$target" --limit 9999 --visibility public --source --json stargazersCount --jq 'map(.stargazersCount) | add' 2>/dev/null)
+  echo "${count:-0}"
+}
+
+echo "Fetching GitHub stars..."
+stars_mayank=$(get_gh_stars "mayank1513")
+stars_md2docx=$(get_gh_stars "md2docx")
+stars_react=$(get_gh_stars "react18-tools")
+stars_total=$((stars_mayank + stars_md2docx + stars_react))
+
+echo "GitHub Stars -> Total: $stars_total (mayank1513: $stars_mayank, md2docx: $stars_md2docx, react18-tools: $stars_react)"
+
 # Metrics
 jq -n \
   --arg npm "$total_downloads" \
@@ -127,6 +144,10 @@ jq -n \
   --arg gold "$gold" \
   --arg silver "$silver" \
   --arg bronze "$bronze" \
+  --arg gh_total "$stars_total" \
+  --arg gh_mayank "$stars_mayank" \
+  --arg gh_md2docx "$stars_md2docx" \
+  --arg gh_react "$stars_react" \
   '{
     npm: { 
       total: ($npm|tonumber), 
@@ -142,6 +163,12 @@ jq -n \
       formatted: $rep_fmt,
       rank: $rank,
       badges: { gold: ($gold|tonumber), silver: ($silver|tonumber), bronze: ($bronze|tonumber) }
+    },
+    github: {
+      total: ($gh_total|tonumber),
+      mayank1513: ($gh_mayank|tonumber),
+      "react18-tools": ($gh_react|tonumber),
+      md2docx: ($gh_md2docx|tonumber)
     }
   }' > "metrics.json"
 

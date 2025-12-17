@@ -28,6 +28,7 @@ jobs:
         run: chmod +x ./update-metrics.sh && (sudo bash ./update-metrics.sh || ./update-metrics.sh)
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - name: Push changes back to repo
         continue-on-error: true
         run: |
