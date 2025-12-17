@@ -1,8 +1,8 @@
 {
   "npm": {
-    "total": 5653385,
-    "formatted": "5.7M",
-    "failed": 1,
+    "total": 5332554,
+    "formatted": "5.3M",
+    "failed": 76,
     "monthly": 702272,
     "monthly_formatted": "702.3k",
     "weekly": 169664,
