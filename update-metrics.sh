@@ -115,10 +115,7 @@ printf "TOTAL monthly: %d\nTOTAL weekly: %d\n" "$monthly_total" "$weekly_total"
 # GitHub Stats
 get_gh_stars() {
   local target=$1
-  local count
-  # Fetch public repos, source only (no forks), sum stargazersCount
-  count=$(gh repo list "$target" --limit 9999 --visibility public --source --json stargazersCount --jq 'map(.stargazersCount) | add' 2>/dev/null)
-  echo "${count:-0}"
+  gh api "users/$target/repos?per_page=100" --paginate --jq '[.[].stargazers_count] | add' | awk '{sum+=$1} END {print sum+0}'
 }
 
 echo "Fetching GitHub stars..."
