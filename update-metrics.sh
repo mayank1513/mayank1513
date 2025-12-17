@@ -98,7 +98,7 @@ while IFS=' ' read -r package monthly weekly; do
     failed_count=$((failed_count + 1))
     FAILED_PACKAGES+=("$package")
     echo "Failed to fetch download count for package $package, taking a pause..."
-    sleep 5
+    sleep 20
   fi
   echo "Download count for package $package: $download_count, total: $total_downloads"
   # sleep 0.2
