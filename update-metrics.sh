@@ -70,14 +70,33 @@ fetch_packages() {
 }
 
 fetch_download_count() {
-    local package=$1
-    local response=$(curl -s -H "Authorization:Bearer $NPM_TOKEN" "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$package")
+  local package=$1
+  local max_retries=5
+  local attempt=0
+  local wait_time=5
 
-    [ $? -ne 0 ] && exit 1
+  while (( attempt < max_retries )); do
+    # Execute curl and capture both stdout and exit code
+    local response
+    response=$(curl -s -f -H "Authorization: Bearer $NPM_TOKEN" \
+      "https://api.npmjs.org/downloads/point/1970-01-01:3024-12-31/$package")
+    local status=$?
 
-    local count=$(echo "$response" | jq -r '.downloads')
-    [ "$count" == "null" ] && count=0
-    echo "$count"
+    if [[ $status -eq 0 ]]; then
+      local count
+      count=$(echo "$response" | jq -r '.downloads // 0')
+      echo "$count"
+      return 0
+    fi
+
+    ((attempt++))
+    if [[ $attempt -lt max_retries ]]; then
+      echo "Attempt $attempt failed. Retrying in $wait_time seconds..."
+      sleep "$wait_time"
+    fi
+  done
+
+  return 1
 }
 
 monthly_total=0
@@ -99,12 +118,6 @@ while IFS=' ' read -r package monthly weekly; do
     FAILED_PACKAGES+=("$package")
   fi
   echo "Download count for package $package: $download_count, total: $total_downloads"
-  sleep 0.25
-  # pause a bit more every 10 packages
-  if (( count % 10 == 0 )); then
-    echo "Processed $count packages — taking a breather..."
-    sleep 2.1
-  fi
 done < <(fetch_packages "$NPM_USER")
 
 formated_downloads=$(format_number $total_downloads)
