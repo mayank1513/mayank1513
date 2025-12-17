@@ -97,14 +97,16 @@ while IFS=' ' read -r package monthly weekly; do
   elif (( download_count == 0 )); then
     failed_count=$((failed_count + 1))
     FAILED_PACKAGES+=("$package")
+    echo "Failed to fetch download count for package $package, taking a pause..."
+    sleep 3
   fi
   echo "Download count for package $package: $download_count, total: $total_downloads"
-  sleep 0.25
+  sleep 0.2
   # pause a bit more every 10 packages
-  if (( count % 10 == 0 )); then
-    echo "Processed $count packages — taking a breather..."
-    sleep 2.1
-  fi
+  # if (( count % 10 == 0 )); then
+  #   echo "Processed $count packages — taking a breather..."
+  #   sleep 2.1
+  # fi
 done < <(fetch_packages "$NPM_USER")
 
 echo "Failed to fetch download count for $failed_count packages: ${FAILED_PACKAGES[*]}"
@@ -121,15 +123,16 @@ for package in "${FAILED_PACKAGES[@]}"; do
     total_downloads=$((total_downloads + download_count))
   else
     new_failed_count=$((new_failed_count + 1))
+    sleep 3
   fi
 
   echo "Download count for package $package: $download_count, total: $total_downloads"
-  sleep 0.25
+  sleep 0.2
 
-  if (( count % 10 == 0 )); then
-    echo "Processed $count packages — taking a breather..."
-    sleep 2.1
-  fi
+  # if (( count % 10 == 0 )); then
+  #   echo "Processed $count packages — taking a breather..."
+  #   sleep 2.1
+  # fi
 done
 
 formated_downloads=$(format_number $total_downloads)
