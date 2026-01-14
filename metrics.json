@@ -1,12 +1,12 @@
 {
   "npm": {
-    "total": 5987367,
-    "formatted": "6.0M",
+    "total": 6067109,
+    "formatted": "6.1M",
     "failed": 0,
-    "monthly": 563587,
-    "monthly_formatted": "563.6k",
-    "weekly": 158782,
-    "weekly_formatted": "158.8k"
+    "monthly": 562995,
+    "monthly_formatted": "563.0k",
+    "weekly": 158859,
+    "weekly_formatted": "158.9k"
   },
   "stackoverflow": {
     "reputation": 19292,
@@ -19,9 +19,9 @@
     }
   },
   "github": {
-    "total": 559,
+    "total": 560,
     "mayank1513": 233,
-    "react18-tools": 259,
+    "react18-tools": 260,
     "md2docx": 67
   }
 }
