@@ -36,11 +36,11 @@
 # [Blogs](https://mayank1513.medium.com/)
 
 <!-- BLOG-POST-LIST:START -->
+- [Makar Sankranti: The Physics of Ascension](https://mayank1513.medium.com/makar-sankranti-the-physics-of-ascension-f6704deebe4c?source=rss-c239fa1052f9------2)
 - [Unlocking the Power of MDAST to DOCX: A Game-Changer for Generative AI and Beyond](https://mayank1513.medium.com/unlocking-the-power-of-mdast-to-docx-a-game-changer-for-generative-ai-and-beyond-d28a92a6879d?source=rss-c239fa1052f9------2)
 - [The Role and Importance of Unit Testing, Integration Testing, and End-to-End &lpar;E2E&rpar; Testing in React.](https://mayank1513.medium.com/the-role-and-importance-of-unit-testing-integration-testing-and-end-to-end-e2e-testing-in-react-b2f9174ccffa?source=rss-c239fa1052f9------2)
 - [Understanding dvh: The CSS Dynamic Viewport Height](https://mayank1513.medium.com/understanding-dvh-the-css-dynamic-viewport-height-9ddf70a77c6c?source=rss-c239fa1052f9------2)
 - [Unveiling the Good and the Grit: Barrel Files in Node.js Development](https://mayank1513.medium.com/unveiling-the-good-and-the-grit-barrel-files-in-node-js-development-845ee282fd32?source=rss-c239fa1052f9------2)
-- [Enter the New Era of React 18 Library Building: Introducing esbuild-plugin-react18-css](https://mayank1513.medium.com/enter-the-new-era-of-react-18-library-building-introducing-esbuild-plugin-react18-css-becf1916c97c?source=rss-c239fa1052f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
