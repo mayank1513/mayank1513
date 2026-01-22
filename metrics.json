@@ -1,27 +1,27 @@
 {
   "npm": {
-    "total": 6161244,
-    "formatted": "6.2M",
+    "total": 6130485,
+    "formatted": "6.1M",
     "failed": 0,
-    "monthly": 575655,
-    "monthly_formatted": "575.7k",
-    "weekly": 156194,
-    "weekly_formatted": "156.2k"
+    "monthly": 575817,
+    "monthly_formatted": "575.8k",
+    "weekly": 156019,
+    "weekly_formatted": "156.0k"
   },
   "stackoverflow": {
-    "reputation": 19292,
+    "reputation": 19302,
     "formatted": "19.3k",
     "rank": "",
     "badges": {
       "gold": 14,
       "silver": 74,
-      "bronze": 165
+      "bronze": 166
     }
   },
   "github": {
-    "total": 563,
+    "total": 564,
     "mayank1513": 233,
-    "react18-tools": 262,
+    "react18-tools": 263,
     "md2docx": 68
   }
 }
