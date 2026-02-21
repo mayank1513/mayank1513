@@ -1,6 +1,6 @@
 {
   "npm": {
-    "total": 6828642,
+    "total": 6827535,
     "formatted": "6.8M",
     "failed": 0,
     "monthly": 800047,
@@ -9,7 +9,7 @@
     "weekly_formatted": "191.1k"
   },
   "stackoverflow": {
-    "reputation": 19322,
+    "reputation": 19332,
     "formatted": "19.3k",
     "rank": "",
     "badges": {
