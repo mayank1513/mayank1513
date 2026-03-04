@@ -1,6 +1,6 @@
-[<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50" style="padding:150px"/>](https://mayank-chaudhari.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/devops.png" width="90" height="90" />](https://learn.microsoft.com/en-us/users/mayankchaudhari-7595/credentials/3fecfbc2d9f3c0e4) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/ai.png" width="80" height="80"/>](https://learn.microsoft.com/api/credentials/share/en-us/MayankChaudhari-7595/B260BA735B9266C4?sharingId=C8E84CAF421EA445) &nbsp;&nbsp;&nbsp;&nbsp; [![Mayank Chaudhari StackOverflow](.badges/stack-overflow.svg)](https://stackoverflow.com/users/9640177/mayank1513)
+[<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50" style="padding:150px"/>](https://mayankchaudhari.com) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/devops.png" width="90" height="90" />](https://learn.microsoft.com/en-us/users/mayankchaudhari-7595/credentials/3fecfbc2d9f3c0e4) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/ai.png" width="80" height="80"/>](https://learn.microsoft.com/api/credentials/share/en-us/MayankChaudhari-7595/B260BA735B9266C4?sharingId=C8E84CAF421EA445) &nbsp;&nbsp;&nbsp;&nbsp; [![Mayank Chaudhari StackOverflow](.badges/stack-overflow.svg)](https://stackoverflow.com/users/9640177/mayank1513)
 
-[![Typing SVG](https://mayank-chaudhari.vercel.app/api/hola)](https://mayank-chaudhari.vercel.app)
+[![Typing SVG](https://mayankchaudhari.com/api/hola)](https://mayankchaudhari.com)
 
 <img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/> [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) <img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px; transform: rotateY(180deg)"/>
 
@@ -14,7 +14,7 @@
 
 **Key Skills**: JavaScript/TypeScript, React/Next.js/JSX, HTML/CSS/SCSS, Vue.js/Nuxt.js, Firebase, Prisma, Firefox-addon, Azure/Amazon Web Services/Google Cloud Platform, Android/Java
 
-#### https://mayank-chaudhari.vercel.app
+#### https://mayankchaudhari.com
 
 ### Career Highlights
 
@@ -26,7 +26,7 @@
 
 <!-- social badges -->
 
-# [Courses](https://mayank-chaudhari.vercel.app/courses)
+# [Courses](https://mayankchaudhari.com/courses)
 
 - [The Game of Chess with Next.js, React and TypeScrypt](https://www.udemy.com/course/game-of-chess-with-nextjs-react-and-typescrypt/?referralCode=851A28F10B254A8523FE)
 - [React + Next JS with TypeScript](https://www.udemy.com/course/react-and-next-js-with-typescript/?referralCode=7202184A1E57C3DCA8B2)
@@ -44,10 +44,6 @@
 <!-- BLOG-POST-LIST:END -->
 
 <!--
-**mayank1513/mayank1513** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
-[![Mayank Chaudhari StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=9640177&layout=compact)](https://stackoverflow.com/users/9640177/mayank1513)
 
 Here are some ideas to get you started:
 
