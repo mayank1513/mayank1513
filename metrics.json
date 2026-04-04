@@ -1,15 +1,15 @@
 {
   "npm": {
-    "total": 8235469,
+    "total": 8216836,
     "formatted": "8.2M",
     "failed": 0,
-    "monthly": 1191429,
+    "monthly": 1191528,
     "monthly_formatted": "1.2M",
-    "weekly": 326259,
+    "weekly": 326305,
     "weekly_formatted": "326.3k"
   },
   "stackoverflow": {
-    "reputation": 19362,
+    "reputation": 19382,
     "formatted": "19.4k",
     "rank": "",
     "badges": {
