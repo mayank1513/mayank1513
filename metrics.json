@@ -1,7 +1,7 @@
 {
   "npm": {
-    "total": 9702681,
-    "formatted": "9.7M",
+    "total": 9756416,
+    "formatted": "9.8M",
     "failed": 0,
     "monthly": 1392210,
     "monthly_formatted": "1.4M",
@@ -19,9 +19,9 @@
     }
   },
   "github": {
-    "total": 582,
+    "total": 583,
     "mayank1513": 236,
     "react18-tools": 266,
-    "md2docx": 80
+    "md2docx": 81
   }
 }
