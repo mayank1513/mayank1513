@@ -1,17 +1,17 @@
 {
   "npm": {
-    "total": 15530191,
-    "formatted": "15.5M",
+    "total": 15903433,
+    "formatted": "15.9M",
     "failed": 0,
-    "monthly": 2780263,
+    "monthly": 2780224,
     "monthly_formatted": "2.8M",
-    "weekly": 788163,
-    "weekly_formatted": "788.2k"
+    "weekly": 788081,
+    "weekly_formatted": "788.1k"
   },
   "stackoverflow": {
     "reputation": 19472,
     "formatted": "19.5k",
-    "rank": "",
+    "rank": "#384 this week",
     "badges": {
       "gold": 14,
       "silver": 80,
