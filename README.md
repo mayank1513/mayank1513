@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Hola" width="50" height="50" style="padding:150px"/>](https://mayankchaudhari.com) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/devops.png" width="90" height="90" />](https://learn.microsoft.com/en-us/users/mayankchaudhari-7595/credentials/3fecfbc2d9f3c0e4) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/ai.png" width="80" height="80"/>](https://learn.microsoft.com/api/credentials/share/en-us/MayankChaudhari-7595/B260BA735B9266C4?sharingId=C8E84CAF421EA445) &nbsp;&nbsp;&nbsp;&nbsp; [![Mayank Chaudhari StackOverflow](.badges/stack-overflow.svg)](https://stackoverflow.com/users/9640177/mayank1513)
 
-[![Typing SVG](https://mayankchaudhari.com/api/hola)](https://mayankchaudhari.com)
+[![Typing SVG](https://raw.githubusercontent.com/mayank1513/mayank1513/refs/heads/main/hola.svg)](https://mayankchaudhari.com)
 
 <img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px"/> [![NPM Downloads for packages by mayank1513](.badges/npm-downloads.svg)](.github/workflows/badge.yml) <img src="https://raw.githubusercontent.com/mayank1513/mayank1513/main/popper.png" style="height: 40px; transform: rotateY(180deg)"/>
 
